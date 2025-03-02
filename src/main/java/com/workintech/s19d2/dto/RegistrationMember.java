@@ -1,4 +1,4 @@
 package com.workintech.s19d2.dto;
 
-public class RegistrationMember {
+public record RegistrationMember(String email, String password) {
 }
